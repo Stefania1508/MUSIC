@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+body {
+  color: #333;
+  background: #fff;
+  line-height: 1.6;
+}
+
+.inicio {
+  background: url("/assets/images/angel.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio-title {
+  font-size: 5rem;
+  color: white;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 10%;
+  gap: 2rem;
+}
+
+.section img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 10%;
+  gap: 2rem;
+}
+
+.section2 img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color:#FD4C5C; 
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px; 
+  font-weight: bold;
+  font-family: sans-serif;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
